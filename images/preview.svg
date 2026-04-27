@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 880" font-family="'DM Sans', 'Inter Tight', ui-sans-serif, system-ui" font-size="13" data-rev="kilowott-namespace">
+  <defs>
+    <style>
+      .code { font-family: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace; font-size: 13px; }
+      .label { font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; }
+      .title { font-family: 'Newsreader', 'Fraunces', ui-serif, Georgia, serif; letter-spacing: -0.02em; }
+    </style>
+  </defs>
+
+  <!-- Ink (top) -->
+  <rect x="0" y="0" width="1280" height="440" fill="#0B0F14"/>
+  <!-- Paper (bottom) -->
+  <rect x="0" y="440" width="1280" height="440" fill="#FFFFFF"/>
+
+  <!-- ============ KILOWOTT INK ============ -->
+  <rect x="0" y="0" width="1280" height="28" fill="#0B0F14"/>
+  <line x1="0" y1="28" x2="1280" y2="28" stroke="#1A2230"/>
+  <circle cx="16" cy="14" r="5" fill="#E4022D"/>
+  <circle cx="32" cy="14" r="5" fill="#F05A28"/>
+  <circle cx="48" cy="14" r="5" fill="#2B3544"/>
+  <text x="640" y="18" fill="#8A95A5" text-anchor="middle">kilowott-theme — AuthService.cs</text>
+  <text x="1260" y="50" class="title" font-size="18" fill="#F6F4F0" text-anchor="end">INK</text>
+
+  <!-- Activity bar -->
+  <rect x="0" y="28" width="48" height="376" fill="#0B0F14"/>
+  <line x1="48" y1="28" x2="48" y2="404" stroke="#1A2230"/>
+  <rect x="0" y="40" width="2" height="24" fill="#E4022D"/>
+  <rect x="14" y="44" width="20" height="16" rx="2" fill="none" stroke="#F6F4F0" stroke-width="1.5"/>
+  <rect x="14" y="80" width="20" height="16" rx="2" fill="none" stroke="#5B6573" stroke-width="1.5"/>
+  <rect x="14" y="116" width="20" height="16" rx="2" fill="none" stroke="#5B6573" stroke-width="1.5"/>
+
+  <!-- Sidebar -->
+  <rect x="48" y="28" width="200" height="376" fill="#0B0F14"/>
+  <rect x="48" y="28" width="200" height="28" fill="#1A2230"/>
+  <line x1="248" y1="28" x2="248" y2="404" stroke="#1A2230"/>
+  <text x="64" y="46" class="label" fill="#F6F4F0">Explorer</text>
+  <text x="64" y="78" fill="#EDEAE3">▾ kilowott-app</text>
+  <text x="80" y="100" fill="#8A95A5">▸ Components</text>
+  <text x="80" y="122" fill="#8A95A5">▸ Pages</text>
+  <text x="80" y="144" fill="#EDEAE3">Program.cs</text>
+  <rect x="76" y="154" width="160" height="22" fill="#1A2230"/>
+  <text x="80" y="170" fill="#F6F4F0">AuthService.cs</text>
+  <rect x="74" y="154" width="2" height="22" fill="#E4022D"/>
+  <text x="80" y="192" fill="#F05A28">Home.razor <tspan fill="#F05A28" font-size="11">M</tspan></text>
+  <text x="80" y="214" fill="#1F3CFF">app.ts <tspan fill="#1F3CFF" font-size="11">A</tspan></text>
+  <text x="80" y="236" fill="#EDEAE3">styles.css</text>
+
+  <!-- Tabs -->
+  <rect x="248" y="28" width="1032" height="28" fill="#0B0F14"/>
+  <line x1="248" y1="56" x2="1280" y2="56" stroke="#1A2230"/>
+  <rect x="248" y="28" width="180" height="28" fill="#1A2230"/>
+  <rect x="248" y="28" width="180" height="2" fill="#E4022D"/>
+  <text x="268" y="46" fill="#F6F4F0">AuthService.cs</text>
+  <text x="444" y="46" fill="#8A95A5">Home.razor</text>
+
+  <!-- Editor (Ink) — C# sample -->
+  <rect x="248" y="56" width="1032" height="348" fill="#0B0F14"/>
+  <g class="code">
+    <g fill="#5B6573" text-anchor="end">
+      <text x="282" y="84">1</text><text x="282" y="104">2</text><text x="282" y="124">3</text>
+      <text x="282" y="144">4</text><text x="282" y="164">5</text><text x="282" y="184">6</text>
+      <text x="282" y="204">7</text><text x="282" y="224">8</text><text x="282" y="244">9</text>
+      <text x="282" y="264">10</text><text x="282" y="284">11</text><text x="282" y="304">12</text>
+      <text x="282" y="324">13</text><text x="282" y="344">14</text><text x="282" y="364">15</text>
+      <text x="282" y="384">16</text>
+    </g>
+
+    <!-- using directives -->
+    <text x="300" y="84"><tspan fill="#E4022D">using</tspan><tspan fill="#F6F4F0"> </tspan><tspan fill="#FCE5EA">Microsoft</tspan><tspan fill="#8A95A5">.</tspan><tspan fill="#FCE5EA">AspNetCore</tspan><tspan fill="#8A95A5">.</tspan><tspan fill="#FCE5EA">Components</tspan><tspan fill="#8A95A5">;</tspan></text>
+    <text x="300" y="104"><tspan fill="#E4022D">using</tspan><tspan fill="#F6F4F0"> </tspan><tspan fill="#FCE5EA">System</tspan><tspan fill="#8A95A5">.</tspan><tspan fill="#FCE5EA">Threading</tspan><tspan fill="#8A95A5">.</tspan><tspan fill="#FCE5EA">Tasks</tspan><tspan fill="#8A95A5">;</tspan></text>
+
+    <!-- namespace -->
+    <text x="300" y="144"><tspan fill="#E4022D">namespace</tspan><tspan fill="#F6F4F0"> </tspan><tspan fill="#FCE5EA">Kilowott</tspan><tspan fill="#8A95A5">.</tspan><tspan fill="#FCE5EA">Client</tspan><tspan fill="#8A95A5">.</tspan><tspan fill="#FCE5EA">Services</tspan><tspan fill="#8A95A5">;</tspan></text>
+
+    <!-- class decl -->
+    <text x="300" y="184"><tspan fill="#5B6573">// Framework types render in the shaded brandkit blue</tspan></text>
+    <text x="300" y="204"><tspan fill="#C8102E">public sealed</tspan><tspan fill="#F6F4F0"> </tspan><tspan fill="#E4022D">class</tspan><tspan fill="#F6F4F0"> </tspan><tspan fill="#F05A28">AuthService</tspan><tspan fill="#F6F4F0"> </tspan><tspan fill="#8A95A5">:</tspan><tspan fill="#F6F4F0"> </tspan><tspan fill="#F05A28">IAuthService</tspan></text>
+    <text x="300" y="224"><tspan fill="#8A95A5">{</tspan></text>
+
+    <!-- field -->
+    <text x="320" y="244"><tspan fill="#C8102E">private readonly</tspan><tspan fill="#F6F4F0"> </tspan><tspan fill="#8F9EFF">HttpClient</tspan><tspan fill="#F6F4F0"> </tspan><tspan fill="#F05A28">_http</tspan><tspan fill="#8A95A5">;</tspan></text>
+
+    <!-- event -->
+    <text x="320" y="264"><tspan fill="#C8102E">public</tspan><tspan fill="#F6F4F0"> </tspan><tspan fill="#E4022D">event</tspan><tspan fill="#F6F4F0"> </tspan><tspan fill="#8F9EFF">Action</tspan><tspan fill="#8A95A5">?</tspan><tspan fill="#F6F4F0"> </tspan><tspan fill="#1F3CFF">OnAuthChanged</tspan><tspan fill="#8A95A5">;</tspan></text>
+
+    <!-- property -->
+    <text x="320" y="284"><tspan fill="#C8102E">public</tspan><tspan fill="#F6F4F0"> </tspan><tspan fill="#F05A28">string</tspan><tspan fill="#8A95A5">?</tspan><tspan fill="#F6F4F0"> </tspan><tspan fill="#1F3CFF">Token</tspan><tspan fill="#F6F4F0"> </tspan><tspan fill="#8A95A5">{ </tspan><tspan fill="#E4022D">get</tspan><tspan fill="#8A95A5">; </tspan><tspan fill="#E4022D">private set</tspan><tspan fill="#8A95A5">; }</tspan></text>
+
+    <!-- method -->
+    <text x="320" y="324"><tspan fill="#C8102E">public async</tspan><tspan fill="#F6F4F0"> </tspan><tspan fill="#8F9EFF">Task</tspan><tspan fill="#8A95A5">&lt;</tspan><tspan fill="#F05A28">bool</tspan><tspan fill="#8A95A5">&gt; </tspan><tspan fill="#1F3CFF">SignInAsync</tspan><tspan fill="#8A95A5">(</tspan><tspan fill="#F05A28">string</tspan><tspan fill="#F6F4F0"> </tspan><tspan fill="#EDEAE3">email</tspan><tspan fill="#8A95A5">, </tspan><tspan fill="#F05A28">string</tspan><tspan fill="#F6F4F0"> </tspan><tspan fill="#EDEAE3">password</tspan><tspan fill="#8A95A5">)</tspan></text>
+    <text x="320" y="344"><tspan fill="#8A95A5">{</tspan></text>
+    <text x="340" y="364"><tspan fill="#E4022D">var</tspan><tspan fill="#F6F4F0"> </tspan><tspan fill="#F6F4F0">response</tspan><tspan fill="#F6F4F0"> </tspan><tspan fill="#8A95A5">= </tspan><tspan fill="#E4022D">await</tspan><tspan fill="#F6F4F0"> </tspan><tspan fill="#F05A28">_http</tspan><tspan fill="#8A95A5">.</tspan><tspan fill="#8F9EFF">PostAsJsonAsync</tspan><tspan fill="#8A95A5">(</tspan><tspan fill="#EDEAE3">"/api/login"</tspan><tspan fill="#8A95A5">, </tspan><tspan fill="#C8102E">new</tspan><tspan fill="#F6F4F0"> </tspan><tspan fill="#8A95A5">{ </tspan><tspan fill="#EDEAE3">email</tspan><tspan fill="#8A95A5">, </tspan><tspan fill="#EDEAE3">password</tspan><tspan fill="#8A95A5"> });</tspan></text>
+    <text x="340" y="384"><tspan fill="#E4022D">return</tspan><tspan fill="#F6F4F0"> </tspan><tspan fill="#F05A28">response</tspan><tspan fill="#8A95A5">.</tspan><tspan fill="#1F3CFF">IsSuccessStatusCode</tspan><tspan fill="#8A95A5">;</tspan></text>
+  </g>
+
+  <!-- Status bar (Ink) -->
+  <rect x="0" y="404" width="1280" height="24" fill="#1A2230"/>
+  <rect x="0" y="404" width="80" height="24" fill="#E4022D"/>
+  <text x="40" y="420" fill="#FFFFFF" text-anchor="middle" class="label">main</text>
+  <text x="100" y="420" fill="#F6F4F0">C#</text>
+  <text x="220" y="420" fill="#8A95A5">Ln 15, Col 42 · UTF-8 · LF</text>
+  <text x="1240" y="420" fill="#F6F4F0" text-anchor="end">Kilowott Ink</text>
+  <rect x="0" y="428" width="1280" height="12" fill="#0B0F14"/>
+
+  <!-- ============ KILOWOTT PAPER ============ -->
+  <rect x="0" y="440" width="1280" height="28" fill="#F6F4F0"/>
+  <line x1="0" y1="468" x2="1280" y2="468" stroke="#E2DED6"/>
+  <circle cx="16" cy="454" r="5" fill="#E4022D"/>
+  <circle cx="32" cy="454" r="5" fill="#F05A28"/>
+  <circle cx="48" cy="454" r="5" fill="#E2DED6"/>
+  <text x="640" y="458" fill="#5B6573" text-anchor="middle">kilowott-theme — AuthService.cs</text>
+  <text x="1260" y="490" class="title" font-size="18" fill="#0B0F14" text-anchor="end">PAPER</text>
+
+  <!-- Activity bar (stays ink) -->
+  <rect x="0" y="468" width="48" height="376" fill="#0B0F14"/>
+  <rect x="0" y="480" width="2" height="24" fill="#E4022D"/>
+  <rect x="14" y="484" width="20" height="16" rx="2" fill="none" stroke="#F6F4F0" stroke-width="1.5"/>
+  <rect x="14" y="520" width="20" height="16" rx="2" fill="none" stroke="#8A95A5" stroke-width="1.5"/>
+  <rect x="14" y="556" width="20" height="16" rx="2" fill="none" stroke="#8A95A5" stroke-width="1.5"/>
+
+  <!-- Sidebar -->
+  <rect x="48" y="468" width="200" height="376" fill="#F6F4F0"/>
+  <rect x="48" y="468" width="200" height="28" fill="#EDEAE3"/>
+  <line x1="248" y1="468" x2="248" y2="844" stroke="#E2DED6"/>
+  <text x="64" y="486" class="label" fill="#0B0F14">Explorer</text>
+  <text x="64" y="518" fill="#1A2230">▾ kilowott-app</text>
+  <text x="80" y="540" fill="#5B6573">▸ Components</text>
+  <text x="80" y="562" fill="#5B6573">▸ Pages</text>
+  <text x="80" y="584" fill="#1A2230">Program.cs</text>
+  <rect x="76" y="594" width="160" height="22" fill="#EDEAE3"/>
+  <text x="80" y="610" fill="#0B0F14">AuthService.cs</text>
+  <rect x="74" y="594" width="2" height="22" fill="#E4022D"/>
+  <text x="80" y="632" fill="#F05A28">Home.razor <tspan fill="#F05A28" font-size="11">M</tspan></text>
+  <text x="80" y="654" fill="#1F3CFF">app.ts <tspan fill="#1F3CFF" font-size="11">A</tspan></text>
+  <text x="80" y="676" fill="#1A2230">styles.css</text>
+
+  <!-- Tabs -->
+  <rect x="248" y="468" width="1032" height="28" fill="#F6F4F0"/>
+  <line x1="248" y1="496" x2="1280" y2="496" stroke="#E2DED6"/>
+  <rect x="248" y="468" width="180" height="28" fill="#FFFFFF"/>
+  <rect x="248" y="468" width="180" height="2" fill="#E4022D"/>
+  <text x="268" y="486" fill="#0B0F14">AuthService.cs</text>
+  <text x="444" y="486" fill="#5B6573">Home.razor</text>
+
+  <!-- Editor (Paper) — same C# sample -->
+  <rect x="248" y="496" width="1032" height="348" fill="#FFFFFF"/>
+  <g class="code">
+    <g fill="#8A95A5" text-anchor="end">
+      <text x="282" y="524">1</text><text x="282" y="544">2</text><text x="282" y="564">3</text>
+      <text x="282" y="584">4</text><text x="282" y="604">5</text><text x="282" y="624">6</text>
+      <text x="282" y="644">7</text><text x="282" y="664">8</text><text x="282" y="684">9</text>
+      <text x="282" y="704">10</text><text x="282" y="724">11</text><text x="282" y="744">12</text>
+      <text x="282" y="764">13</text><text x="282" y="784">14</text><text x="282" y="804">15</text>
+      <text x="282" y="824">16</text>
+    </g>
+
+    <text x="300" y="524"><tspan fill="#E4022D">using</tspan><tspan fill="#0B0F14"> </tspan><tspan fill="#C8102E">Microsoft</tspan><tspan fill="#5B6573">.</tspan><tspan fill="#C8102E">AspNetCore</tspan><tspan fill="#5B6573">.</tspan><tspan fill="#C8102E">Components</tspan><tspan fill="#5B6573">;</tspan></text>
+    <text x="300" y="544"><tspan fill="#E4022D">using</tspan><tspan fill="#0B0F14"> </tspan><tspan fill="#C8102E">System</tspan><tspan fill="#5B6573">.</tspan><tspan fill="#C8102E">Threading</tspan><tspan fill="#5B6573">.</tspan><tspan fill="#C8102E">Tasks</tspan><tspan fill="#5B6573">;</tspan></text>
+
+    <text x="300" y="584"><tspan fill="#E4022D">namespace</tspan><tspan fill="#0B0F14"> </tspan><tspan fill="#C8102E">Kilowott</tspan><tspan fill="#5B6573">.</tspan><tspan fill="#C8102E">Client</tspan><tspan fill="#5B6573">.</tspan><tspan fill="#C8102E">Services</tspan><tspan fill="#5B6573">;</tspan></text>
+
+    <text x="300" y="624"><tspan fill="#8A95A5">// Framework types render in the shaded brandkit blue</tspan></text>
+    <text x="300" y="644"><tspan fill="#C8102E">public sealed</tspan><tspan fill="#0B0F14"> </tspan><tspan fill="#E4022D">class</tspan><tspan fill="#0B0F14"> </tspan><tspan fill="#8A021B">AuthService</tspan><tspan fill="#0B0F14"> </tspan><tspan fill="#5B6573">:</tspan><tspan fill="#0B0F14"> </tspan><tspan fill="#8A021B">IAuthService</tspan></text>
+    <text x="300" y="664"><tspan fill="#5B6573">{</tspan></text>
+
+    <text x="320" y="684"><tspan fill="#C8102E">private readonly</tspan><tspan fill="#0B0F14"> </tspan><tspan fill="#0F1E80">HttpClient</tspan><tspan fill="#0B0F14"> </tspan><tspan fill="#E4022D">_http</tspan><tspan fill="#5B6573">;</tspan></text>
+
+    <text x="320" y="704"><tspan fill="#C8102E">public</tspan><tspan fill="#0B0F14"> </tspan><tspan fill="#E4022D">event</tspan><tspan fill="#0B0F14"> </tspan><tspan fill="#0F1E80">Action</tspan><tspan fill="#5B6573">?</tspan><tspan fill="#0B0F14"> </tspan><tspan fill="#1F3CFF">OnAuthChanged</tspan><tspan fill="#5B6573">;</tspan></text>
+
+    <text x="320" y="724"><tspan fill="#C8102E">public</tspan><tspan fill="#0B0F14"> </tspan><tspan fill="#8A021B">string</tspan><tspan fill="#5B6573">?</tspan><tspan fill="#0B0F14"> </tspan><tspan fill="#1F3CFF">Token</tspan><tspan fill="#0B0F14"> </tspan><tspan fill="#5B6573">{ </tspan><tspan fill="#E4022D">get</tspan><tspan fill="#5B6573">; </tspan><tspan fill="#E4022D">private set</tspan><tspan fill="#5B6573">; }</tspan></text>
+
+    <text x="320" y="764"><tspan fill="#C8102E">public async</tspan><tspan fill="#0B0F14"> </tspan><tspan fill="#0F1E80">Task</tspan><tspan fill="#5B6573">&lt;</tspan><tspan fill="#8A021B">bool</tspan><tspan fill="#5B6573">&gt; </tspan><tspan fill="#1F3CFF">SignInAsync</tspan><tspan fill="#5B6573">(</tspan><tspan fill="#8A021B">string</tspan><tspan fill="#0B0F14"> </tspan><tspan fill="#1A2230">email</tspan><tspan fill="#5B6573">, </tspan><tspan fill="#8A021B">string</tspan><tspan fill="#0B0F14"> </tspan><tspan fill="#1A2230">password</tspan><tspan fill="#5B6573">)</tspan></text>
+    <text x="320" y="784"><tspan fill="#5B6573">{</tspan></text>
+    <text x="340" y="804"><tspan fill="#E4022D">var</tspan><tspan fill="#0B0F14"> </tspan><tspan fill="#0B0F14">response</tspan><tspan fill="#0B0F14"> </tspan><tspan fill="#5B6573">= </tspan><tspan fill="#E4022D">await</tspan><tspan fill="#0B0F14"> </tspan><tspan fill="#E4022D">_http</tspan><tspan fill="#5B6573">.</tspan><tspan fill="#0F1E80">PostAsJsonAsync</tspan><tspan fill="#5B6573">(</tspan><tspan fill="#1A2230">"/api/login"</tspan><tspan fill="#5B6573">, </tspan><tspan fill="#C8102E">new</tspan><tspan fill="#0B0F14"> </tspan><tspan fill="#5B6573">{ </tspan><tspan fill="#1A2230">email</tspan><tspan fill="#5B6573">, </tspan><tspan fill="#1A2230">password</tspan><tspan fill="#5B6573"> });</tspan></text>
+    <text x="340" y="824"><tspan fill="#E4022D">return</tspan><tspan fill="#0B0F14"> </tspan><tspan fill="#E4022D">response</tspan><tspan fill="#5B6573">.</tspan><tspan fill="#1F3CFF">IsSuccessStatusCode</tspan><tspan fill="#5B6573">;</tspan></text>
+  </g>
+
+  <!-- Status bar (Paper) -->
+  <rect x="0" y="844" width="1280" height="24" fill="#0B0F14"/>
+  <rect x="0" y="844" width="80" height="24" fill="#E4022D"/>
+  <text x="40" y="860" fill="#FFFFFF" text-anchor="middle" class="label">main</text>
+  <text x="100" y="860" fill="#F6F4F0">C#</text>
+  <text x="220" y="860" fill="#8A95A5">Ln 15, Col 42 · UTF-8 · LF</text>
+  <text x="1240" y="860" fill="#F6F4F0" text-anchor="end">Kilowott Paper</text>
+</svg>

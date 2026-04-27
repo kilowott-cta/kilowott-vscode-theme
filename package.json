@@ -1,0 +1,27 @@
+{
+  "name": "kilowott-theme",
+  "displayName": "Kilowott",
+  "description": "VSCode theme based on the Kilowott brand — Newsroom ink & paper with signature red.",
+  "version": "0.9.3",
+  "publisher": "kilowott",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": ["Themes"],
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/kilowott/vscode-theme" },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Kilowott Ink (Dark)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kilowott-ink-color-theme.json"
+      },
+      {
+        "label": "Kilowott Paper (Light)",
+        "uiTheme": "vs",
+        "path": "./themes/kilowott-paper-color-theme.json"
+      }
+    ]
+  }
+}

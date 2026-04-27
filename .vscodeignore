@@ -1,0 +1,5 @@
+.claude/**
+.vscode/**
+.gitignore
+images/preview.svg
+*.vsix
