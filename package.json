@@ -2,7 +2,7 @@
   "name": "kilowott-theme",
   "displayName": "Kilowott",
   "description": "VSCode theme based on the Kilowott brand — Newsroom ink & paper with signature red.",
-  "version": "0.10.0",
+  "version": "0.10.1",
   "publisher": "kilowott",
   "engines": {
     "vscode": "^1.70.0"
